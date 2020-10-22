@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 960px;
+  margin: auto;
+  padding: 6px;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}

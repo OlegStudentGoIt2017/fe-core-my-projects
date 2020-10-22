@@ -1,0 +1,56 @@
+.sidebar {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 8px;
+  
+}
+.list {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.list-item{
+  border: 1px solid #ccc;
+  border-bottom: 0;
+}
+.list-item:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.list-item:last-child{
+  margin-bottom: 0;
+}
+
+.list-link {
+ display: block;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+.list-link:hover{
+  text-indent: 14px;
+}
+
+/* ICONS */
+
+.sidebar-icons {
+text-align: center;
+
+}
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+.fb {
+background-image: url(../img/fb.png);
+}
+.insta {
+  background-image: url(../img/insta.png);
+}
+.twit {
+  background-image: url(../img/twit.png)
+}

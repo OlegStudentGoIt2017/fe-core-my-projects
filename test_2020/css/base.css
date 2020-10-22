@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: auto;
+  padding-top: 10px;
+
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  height: 100vh
+}

@@ -1,0 +1,64 @@
+.sidebar {
+  display: inline-block;
+  box-shadow: 0 0 3px 3px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  padding: 8px;
+  width:200px;
+  margin-right: 20px;
+  vertical-align: top;
+
+}
+
+.list {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+.list-item {
+  border: 1px solid #333333;;
+  border-bottom: 0;
+  padding: 4px;
+}
+
+.list-item:last-child{
+  border-bottom: 1px solid #333333;;
+}
+
+.list-link {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.list-item:hover {
+  text-indent: 10px;
+}
+
+.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.fb {
+  background-image: url(../img/fb.png);
+  background-size: cover;
+}
+
+.insta {
+  background-image: url(../img/insta.png);
+  background-size: cover;
+}
+
+.twit {
+  background-image: url(../img/twit.png);
+  background-size: cover;
+}
+
+a {
+
+  text-decoration: none;
+}
+
+.social-links {
+  text-align: center;
+}

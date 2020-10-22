@@ -1,0 +1,52 @@
+.page-header {
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 4px;
+  margin-bottom: 16px;
+  background: linear-gradient(blue, yellow)
+}
+
+.logo {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  background-image: url(../img/logo.svg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 0;
+  margin-left: 230px;
+}
+
+.menu-item {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 40px;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: Vivaldi, serif;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 4px;
+  border-radius: 4px;
+
+}
+
+.menu-link:hover {
+  border: 1px solid #333333;
+  color: #3db7f0;
+
+
+}
